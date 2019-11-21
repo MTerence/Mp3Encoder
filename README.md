@@ -1,10 +1,10 @@
 # Mp3Encoder
 
-### **` lame `** 库将` pcm ` 音频数据转 `mp3` 编码格式，以 **` iOS `** 为例，具体编码方法类是 `c++` 所写，**` iOS `**   和 **` Android `** 都可用, 
+#### **` lame `** 库将` pcm ` 音频数据转 `mp3` 编码格式，以 **` iOS `** 为例，具体编码方法类是 `c++` 所写，**` iOS `**   和 **` Android `** 都可用, 
 
 ####Android导入 **`lame`** 静态库后， 直接导入`mp3_encoder.hpp`  `mp3_encoder.cpp`类调用即可转码
 
-### lame包编译参考[https://www.jianshu.com/p/685c2de554c1](https://www.jianshu.com/p/685c2de554c1)
+#### lame包编译参考[https://www.jianshu.com/p/685c2de554c1](https://www.jianshu.com/p/685c2de554c1)
 
 编码相关代码是在 `mp3_encoder.hpp`  、`mp3_encoder.cpp`两个`C++`类中实现
 
