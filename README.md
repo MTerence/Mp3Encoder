@@ -9,7 +9,8 @@ lame库将pcm音频数据转mp3编码格式
 
 mp3_encoder.hpp 代码
 
-<h1> class Mp3Encoder {
+```
+class Mp3Encoder {
 private:
 FILE *pcmFile;
 FILE *mp3File;
@@ -22,6 +23,8 @@ int Init(const char *pcmFilePath, const char *mp3FilePath, int sampleRate, int c
 void Encode();
 //内存释放
 void Destory();
-};</h1>
+};
+
+```
 
 mp3_encoder.hpp 代码
