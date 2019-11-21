@@ -22,6 +22,6 @@ int Init(const char *pcmFilePath, const char *mp3FilePath, int sampleRate, int c
 void Encode();
 //内存释放
 void Destory();
-};<h1>
+};</h1>
 
 mp3_encoder.hpp 代码
