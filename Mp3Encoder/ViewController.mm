@@ -28,8 +28,8 @@
 
 - (void)onEncoderBtnClick{
     Mp3Encoder *encoder = new Mp3Encoder();
-    const char *pcmFilePath = [[[[NSBundle mainBundle]bundlePath] stringByAppendingPathComponent:@"NocturneNo2inEflat_44.1k_s16le.pcm"]cStringUsingEncoding:NSUTF8StringEncoding];
-    const char *mp3FilePath = [[self documentsPath:@"NocturneNo2inEflat_44.1k_s16le.mp3"]cStringUsingEncoding:NSUTF8StringEncoding];
+    const char *pcmFilePath = [[[[NSBundle mainBundle]bundlePath] stringByAppendingPathComponent:@"vocal.pcm"]cStringUsingEncoding:NSUTF8StringEncoding];
+    const char *mp3FilePath = [[self documentsPath:@"vocal.mp3"]cStringUsingEncoding:NSUTF8StringEncoding];
     NSLog(@"filePath: %s",mp3FilePath);
     int sampleRate = 44100;
     int channels = 2;

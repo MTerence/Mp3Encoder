@@ -17,7 +17,6 @@
 		ABCFA5582385534F00D73C13 /* Mp3EncoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFA5572385534F00D73C13 /* Mp3EncoderUITests.m */; };
 		ABCFA567238553BB00D73C13 /* mp3_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABCFA565238553BB00D73C13 /* mp3_encoder.cpp */; };
 		ABCFA56C2385540000D73C13 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFA56A2385540000D73C13 /* libmp3lame.a */; };
-		ABCFA5702385581F00D73C13 /* NocturneNo2inEflat_44.1k_s16le.pcm in Resources */ = {isa = PBXBuildFile; fileRef = ABCFA56F2385581F00D73C13 /* NocturneNo2inEflat_44.1k_s16le.pcm */; };
 		ABCFA5722385582F00D73C13 /* vocal.pcm in Resources */ = {isa = PBXBuildFile; fileRef = ABCFA5712385582F00D73C13 /* vocal.pcm */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +58,6 @@
 		ABCFA566238553BB00D73C13 /* mp3_encoder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mp3_encoder.hpp; sourceTree = "<group>"; };
 		ABCFA56A2385540000D73C13 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
 		ABCFA56B2385540000D73C13 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
-		ABCFA56F2385581F00D73C13 /* NocturneNo2inEflat_44.1k_s16le.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = NocturneNo2inEflat_44.1k_s16le.pcm; sourceTree = "<group>"; };
 		ABCFA5712385582F00D73C13 /* vocal.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = vocal.pcm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				ABCFA5712385582F00D73C13 /* vocal.pcm */,
-				ABCFA56F2385581F00D73C13 /* NocturneNo2inEflat_44.1k_s16le.pcm */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -280,7 +277,6 @@
 				ABCFA5402385534F00D73C13 /* LaunchScreen.storyboard in Resources */,
 				ABCFA53D2385534F00D73C13 /* Assets.xcassets in Resources */,
 				ABCFA53B2385534E00D73C13 /* Main.storyboard in Resources */,
-				ABCFA5702385581F00D73C13 /* NocturneNo2inEflat_44.1k_s16le.pcm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
